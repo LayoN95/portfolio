@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap");
+:root {
+  --font-base: Rajdhani;
+  --color-space-cadet: #141b41;
+  --color-green-blue: #306bac;
+  --color-cornflower-blue: #6f9ceb;
+  --color-jordy-blue: #98b9f2;
+  --color-tropical-indigo: #918ef4;
+  --color-black: #000000;
+  --color-white: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-base);
+  background: var(--color-space-cadet);
+}
+
+.app__wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
 }
