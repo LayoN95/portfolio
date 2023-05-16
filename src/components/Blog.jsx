@@ -1,16 +1,9 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 
 import BlogItem from "./BlogItem";
 
 import "./blog.css";
 
-import blog01 from "../assets/blog01.jpg";
-import blog02 from "../assets/blog02.jpg";
-import blog03 from "../assets/blog03.jpg";
-import blog04 from "../assets/blog04.jpg";
-import blog05 from "../assets/blog05.jpg";
-import blog06 from "../assets/blog06.jpg";
 
 const blogData = [
   {
