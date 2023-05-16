@@ -12,14 +12,16 @@ function Header() {
       </div>
       <div className="app__header-text">
         <p>Hi, my name is</p>
-        <h1>Marcin Borowczyk.</h1>
+        <h1>Marcin Borowczyk</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam
           saepe necessitatibus aliquid, repudiandae ad nemo consequatur ullam
           praesentium porro sit, possimus velit quas cupiditate deserunt
           recusandae corporis expedita perferendis.
         </p>
-        <button>See my projects</button>
+        <a href="#projects">
+          <button>See my projects</button>
+        </a>
       </div>
     </div>
   );

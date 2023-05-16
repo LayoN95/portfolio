@@ -26,3 +26,10 @@ body {
   margin: 0 auto;
   max-width: 1200px;
 }
+.heading-text h1 {
+  color: var(--color-white);
+  font-size: 38px;
+}
+.heading-text h1::first-letter {
+  color: var(--color-jordy-blue);
+}

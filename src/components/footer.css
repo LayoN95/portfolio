@@ -1,0 +1,10 @@
+.app__footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-text {
+  margin: 2rem 0 1rem 0;
+}
+.footer-text p {
+  color: var(--color-white);
+}

@@ -1,6 +1,40 @@
 .app__blog {
   margin-top: 4rem;
   display: flex;
+  flex-direction: column;
+}
+
+.app__blog-heading {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__blog-posts {
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+@media (max-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .app__blog {
+    margin-top: 2rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
 }

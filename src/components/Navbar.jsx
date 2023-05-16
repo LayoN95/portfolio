@@ -33,6 +33,7 @@ function Navbar() {
           fontSize={40}
           color="#98b9f2"
           onClick={() => setToggleMenu(true)}
+          cursor={"pointer"}
         />
         {toggleMenu && (
           <div className="navbar__smallscreen-overlay">
@@ -67,6 +68,7 @@ function Navbar() {
               color="#98b9f2"
               className="navbar__smallscreen-overlay_close"
               onClick={() => setToggleMenu(false)}
+              cursor={"pointer"}
             />
           </div>
         )}

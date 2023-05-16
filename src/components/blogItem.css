@@ -5,13 +5,16 @@
   max-width: 260px;
   height: 400px;
   background: var(--color-jordy-blue);
-  box-shadow: 5px 5px 10px var(--color-black);
+  border-bottom: 5px solid var(--color-green-blue);
+  border-right: 5px solid var(--color-green-blue);
+  box-shadow: 3px 3px 10px var(--color-black);
 }
 
 .blog__item-img img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 
 .blog__item-info {
